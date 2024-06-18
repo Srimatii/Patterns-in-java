@@ -103,7 +103,7 @@ public class HalfPyramid {
 7  8  9  10
 11 12 13 14 15
 ```
-``Java
+```Java
 public class FloydsTriangle {
     public static void main(String[] args) {
         int n = 5;
