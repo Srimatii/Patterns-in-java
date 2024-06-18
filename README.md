@@ -119,7 +119,7 @@ public class FloydsTriangle {
         }
 }
 ```
-6. **PATTERN 6** (ZERO - ONE Pyramid)
+6.**PATTERN 6** (ZERO - ONE Pyramid)
 ```
 1
 0 1
@@ -127,7 +127,8 @@ public class FloydsTriangle {
 0 1 0 1
 1 0 1 0 1
 ```
-```Java
+
+``` Java
 public class FloydsTriangle {
     public static void main(String[] args) {
         int n = 5;
@@ -138,9 +139,9 @@ public class FloydsTriangle {
                 number++;
                 }
                 System.out.println();
-            }
-            
         }
-
+            
     }
+
+}
 ```
