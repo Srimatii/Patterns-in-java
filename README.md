@@ -1,13 +1,7 @@
 ## PRINTING PATTERNS IN JAVA
 
 1. **PATTERN 1** (Solid Rectangle)
-
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-
-'''Java
+```Java
 public class Solidrectangle {
    
     public static void main(String[] args) {
@@ -26,5 +20,4 @@ public class Solidrectangle {
         }
     }
 }
-    
-'''
+```
