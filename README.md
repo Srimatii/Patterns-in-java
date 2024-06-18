@@ -145,3 +145,67 @@ public class FloydsTriangle {
 
 }
 ```
+7.**PATTERN 7** (Inverted num pyramid)
+```
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+```
+```Java
+public class InvertedNo {
+    public static void main(String[] args) {
+        int n = 5;
+        for(int i = n ; i>= 1 ; i--){
+            for (int j = 1 ; j<= i ; j ++){
+                System.out.print(j+ " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+8.**PATTERN 8** (Inverted half pyramid)
+```
+         *
+       * *
+     * * *
+   * * * *
+ * * * * *
+```
+```Java
+public class InvertedNo {
+    public static void main(String[] args) {
+        int n = 5;
+        for(int i = n ; i>= 1 ; i--){
+            for (int j = 1 ; j<= i ; j ++){
+                System.out.print(j+ " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+9.**PATTERN 9** (Number pyramid)
+```
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+```
+```Java
+public class Halfpyramidno {
+    public static void main(String[] args) {
+        int n = 5;
+        for(int i = 1 ; i<= n ; i++){
+            for(int j = 1 ; j<= i ; j++){
+                System.out.print(j+ " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
